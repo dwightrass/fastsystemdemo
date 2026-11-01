@@ -1,8 +1,12 @@
 # Natural Pure 🌿
 
-Een eenvoudige webshop voor natuurlijke producten, met betalingen via [Mollie](https://www.mollie.com).
-Elk product heeft een **Koop nu**-knop die de klant meteen naar de Mollie-betaalpagina stuurt
-(iDEAL, creditcard, Bancontact, enz.).
+Een elegante one-product webshop voor **Pure Sheaboter**, met betalingen via [Mollie](https://www.mollie.com).
+De **Koop nu**-knop stuurt de klant meteen naar de Mollie-betaalpagina (iDEAL, creditcard, Bancontact, enz.).
+
+Het ontwerp heeft een natuurlijke, rustige uitstraling (Cormorant Garamond + Jost, crème/olijf/hout-tinten)
+met subtiele motion: zwevende productpot die meebeweegt met de muis, parallax-blaadjes, zacht
+verschijnende secties bij het scrollen, tellers, een doorlopende marquee en een sticky koopbalk op mobiel.
+Bezoekers met "verminder beweging" ingeschakeld krijgen een statische versie.
 
 ## Starten
 
@@ -35,9 +39,10 @@ Open daarna http://localhost:3000.
 
 ## Producten aanpassen
 
-Alle producten staan in [`data/products.json`](data/products.json). Pas naam, prijs, beschrijving
-of afbeelding aan en herstart de server. Afbeeldingen staan in `public/img/` (vervang de
-voorbeeld-SVG's gerust door echte productfoto's).
+Prijs, inhoud en beschrijving staan in [`data/products.json`](data/products.json); de pagina haalt
+deze automatisch op. De overige teksten staan in `public/index.html`. De productafbeeldingen staan in
+`public/img/` – vervang `sheaboter.svg` gerust door een echte productfoto (bijv. een `.png` of `.webp`
+met transparante achtergrond) en pas de `src` in `index.html` aan.
 
 ## Structuur
 
@@ -45,7 +50,7 @@ voorbeeld-SVG's gerust door echte productfoto's).
 server.js            Express-server + Mollie-koppeling
 data/products.json   Productcatalogus
 data/orders.json     Bestellingen (wordt automatisch aangemaakt)
-public/              Website: index (overzicht), product, bedankt
+public/              Website: index (productpagina), bedankt, app.js, style.css
 ```
 
 > **Let op:** bestellingen worden voor de eenvoud in een JSON-bestand opgeslagen. Voor een

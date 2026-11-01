@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Open pot met romige sheaboter">
+  <defs>
+    <radialGradient id="butter" cx=".45" cy=".4" r=".65">
+      <stop offset="0" stop-color="#fbf5e6"/>
+      <stop offset=".55" stop-color="#f1e5c8"/>
+      <stop offset="1" stop-color="#dcc9a0"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" x2="1">
+      <stop offset="0" stop-color="#cfc6b5"/>
+      <stop offset=".4" stop-color="#faf7f1"/>
+      <stop offset="1" stop-color="#bdb3a0"/>
+    </linearGradient>
+    <radialGradient id="sh" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#3b3020" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#3b3020" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="300" cy="330" rx="250" ry="210" fill="url(#sh)"/>
+  <circle cx="300" cy="300" r="220" fill="url(#rim)"/>
+  <circle cx="300" cy="300" r="196" fill="url(#butter)"/>
+  <!-- swirl -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M300 300 m-20 0 a20 20 0 1 1 40 0 a44 44 0 1 1 -88 0 a70 70 0 1 1 140 0 a98 98 0 1 1 -196 0 a124 124 0 1 1 248 0" stroke="#d8c493" stroke-width="10" opacity=".55"/>
+    <path d="M300 300 m-20 0 a20 20 0 1 1 40 0 a44 44 0 1 1 -88 0 a70 70 0 1 1 140 0 a98 98 0 1 1 -196 0 a124 124 0 1 1 248 0" stroke="#fffaf0" stroke-width="4" opacity=".8" transform="translate(-3 -4)"/>
+  </g>
+  <ellipse cx="240" cy="210" rx="60" ry="22" fill="#fff" opacity=".35" transform="rotate(-30 240 210)"/>
+</svg>

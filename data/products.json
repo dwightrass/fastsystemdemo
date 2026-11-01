@@ -1,62 +1,11 @@
 [
   {
-    "id": "lavendel-olie",
-    "name": "Lavendel Etherische Olie",
-    "short": "100% pure lavendelolie voor rust en ontspanning.",
-    "description": "Onze lavendelolie wordt koud gedestilleerd uit biologisch geteelde lavendel uit de Provence. Een paar druppels in je diffuser of bad zorgen voor een rustgevende sfeer. Zonder toevoegingen, puur natuur.",
-    "price": 14.95,
-    "size": "10 ml",
-    "image": "/img/lavendel-olie.svg",
-    "color": "#b9a7d6"
-  },
-  {
-    "id": "rauwe-honing",
-    "name": "Rauwe Bloemenhoning",
-    "short": "Onverhitte honing van lokale imkers.",
-    "description": "Deze rauwe honing is koud geslingerd en nooit verhit, waardoor alle enzymen en smaken behouden blijven. Afkomstig van Nederlandse imkers die met zorg voor hun bijen zorgen.",
-    "price": 9.95,
-    "size": "450 g",
-    "image": "/img/rauwe-honing.svg",
-    "color": "#e8b04a"
-  },
-  {
     "id": "sheaboter",
     "name": "Pure Sheaboter",
-    "short": "Ongeraffineerde sheaboter voor huid en haar.",
-    "description": "Fairtrade, ongeraffineerde sheaboter uit Ghana. Rijk aan vitamine A en E en ideaal als intensieve verzorging voor droge huid, lippen en haarpunten.",
+    "short": "Rauwe, ongeraffineerde sheaboter uit Ghana",
+    "description": "Handgemaakt door vrouwencoöperaties in Noord-Ghana, uit wild geoogste sheanoten. Koud verwerkt en nooit geraffineerd, zodat alle vitamines en natuurlijke vetzuren behouden blijven. Eén ingrediënt, niets toegevoegd.",
     "price": 12.50,
     "size": "200 ml",
-    "image": "/img/sheaboter.svg",
-    "color": "#e9dcc0"
-  },
-  {
-    "id": "groene-thee",
-    "name": "Biologische Groene Thee",
-    "short": "Losse sencha-thee, vers en mild van smaak.",
-    "description": "Handgeplukte biologische sencha uit Japan. Mild, fris en licht grassig van smaak. Zet op 75°C voor de beste smaak.",
-    "price": 8.95,
-    "size": "100 g",
-    "image": "/img/groene-thee.svg",
-    "color": "#8fb573"
-  },
-  {
-    "id": "kokosolie",
-    "name": "Koudgeperste Kokosolie",
-    "short": "Extra vierge kokosolie, veelzijdig te gebruiken.",
-    "description": "Koudgeperste, biologische kokosolie uit Sri Lanka. Geschikt om mee te koken, als body-olie of als haarmasker. Puur en ongeraffineerd.",
-    "price": 7.95,
-    "size": "500 ml",
-    "image": "/img/kokosolie.svg",
-    "color": "#f2efe6"
-  },
-  {
-    "id": "olijfzeep",
-    "name": "Handgemaakte Olijfzeep",
-    "short": "Milde zeep met 100% olijfolie.",
-    "description": "Traditioneel gemaakte zeep op basis van extra vierge olijfolie. Zonder parfum of kleurstoffen, extra mild voor de gevoelige huid.",
-    "price": 5.95,
-    "size": "120 g",
-    "image": "/img/olijfzeep.svg",
-    "color": "#c7c98f"
+    "image": "/img/sheaboter.svg"
   }
 ]
