@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bedankt – Natural Pure</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body class="status-page">
+  <header class="site-header">
+    <a href="/" class="logo" aria-label="Natural Pure – home">
+      <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path d="M27 5C13 5 5 13 5 26c13 0 22-8 22-21z" fill="currentColor"/><path d="M7 25C12 18 18 12 25 7" stroke="var(--cream)" stroke-width="1.6" fill="none"/></svg>
+      <span>Natural Pure</span>
+    </a>
+  </header>
+  <main>
+    <section id="status" class="status-card reveal in" aria-live="polite"><p class="muted">Betaling controleren…</p></section>
+  </main>
+  <script src="/app.js"></script>
+  <script>renderOrderStatus(document.getElementById('status'));</script>
+</body>
+</html>

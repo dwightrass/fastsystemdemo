@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Natural Pure – Pure Sheaboter</title>
+  <meta name="description" content="Rauwe, ongeraffineerde sheaboter uit Ghana. Eén ingrediënt, niets toegevoegd. Bestel direct en betaal veilig via Mollie.">
+  <link rel="icon" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="leaf" viewBox="0 0 120 40">
+      <path d="M2 20 C30 -2 80 -4 118 20 C80 44 30 42 2 20Z" fill="currentColor"/>
+      <path d="M6 20 C40 18 80 18 114 20" stroke="#000" stroke-opacity=".18" stroke-width="1.2" fill="none"/>
+    </symbol>
+  </svg>
+
+  <header class="site-header" id="top">
+    <a href="/" class="logo" aria-label="Natural Pure – home">
+      <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path d="M27 5C13 5 5 13 5 26c13 0 22-8 22-21z" fill="currentColor"/><path d="M7 25C12 18 18 12 25 7" stroke="var(--cream)" stroke-width="1.6" fill="none"/></svg>
+      <span>Natural Pure</span>
+    </a>
+    <nav class="nav">
+      <a href="#voordelen">Voordelen</a>
+      <a href="#herkomst">Herkomst</a>
+      <a href="#gebruik">Gebruik</a>
+    </nav>
+    <a href="#kopen" class="btn btn-small">Koop nu</a>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="blob blob-1" data-speed="0.15"></div>
+        <div class="blob blob-2" data-speed="-0.1"></div>
+        <svg class="leaf-deco l1" data-speed="0.35"><use href="#leaf"/></svg>
+        <svg class="leaf-deco l2" data-speed="0.2"><use href="#leaf"/></svg>
+        <svg class="leaf-deco l3" data-speed="0.5"><use href="#leaf"/></svg>
+      </div>
+
+      <div class="hero-text">
+        <p class="eyebrow reveal">Rauw · Ongeraffineerd · Fairtrade</p>
+        <h1 class="reveal" style="--d:.1s">Pure sheaboter,<br><em>zoals de natuur</em> het bedoelde</h1>
+        <p class="lead reveal" style="--d:.2s">Handgemaakt in Noord-Ghana uit wild geoogste sheanoten. Eén ingrediënt, niets toegevoegd: intens voedend voor huid, lippen en haar.</p>
+
+        <form class="buy-form reveal" style="--d:.3s" id="kopen">
+          <div class="price-block">
+            <span class="price" data-price>€ —</span>
+            <span class="size" data-size></span>
+          </div>
+          <div class="qty" role="group" aria-label="Aantal">
+            <button type="button" data-step="-1" aria-label="Minder">−</button>
+            <input type="number" name="quantity" value="1" min="1" max="20" inputmode="numeric" aria-label="Aantal">
+            <button type="button" data-step="1" aria-label="Meer">+</button>
+          </div>
+          <button class="btn btn-large" type="submit"><span>Koop nu</span></button>
+        </form>
+        <ul class="trust reveal" style="--d:.4s">
+          <li>Veilig betalen met iDEAL &amp; meer</li>
+          <li>Binnen 2 werkdagen in huis</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual reveal" style="--d:.15s">
+        <div class="jar-wrap" id="jar">
+          <img src="/img/sheaboter.svg" alt="Pot Natural Pure sheaboter, 200 ml" class="jar" width="600" height="640">
+        </div>
+      </div>
+
+      <a href="#voordelen" class="scroll-hint" aria-label="Scroll naar beneden"><span></span></a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>100% puur</span><span>Eén ingrediënt</span><span>Fairtrade</span><span>Vegan</span><span>Zonder parfum</span><span>Koud verwerkt</span>
+        <span>100% puur</span><span>Eén ingrediënt</span><span>Fairtrade</span><span>Vegan</span><span>Zonder parfum</span><span>Koud verwerkt</span>
+      </div>
+    </div>
+
+    <!-- VOORDELEN -->
+    <section class="section" id="voordelen">
+      <div class="section-head reveal">
+        <p class="eyebrow">Waarom sheaboter</p>
+        <h2>Eén pot, <em>talloze</em> toepassingen</h2>
+      </div>
+      <div class="benefits">
+        <article class="benefit reveal" style="--d:0s">
+          <div class="icon"><svg viewBox="0 0 48 48"><path d="M24 6c8 10 14 17 14 24a14 14 0 0 1-28 0c0-7 6-14 14-24z"/></svg></div>
+          <h3>Diepe hydratatie</h3>
+          <p>Rijk aan natuurlijke vetzuren die vocht vasthouden en de huid langdurig soepel maken.</p>
+        </article>
+        <article class="benefit reveal" style="--d:.1s">
+          <div class="icon"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="9"/><path d="M24 5v6M24 37v6M5 24h6M37 24h6M10.6 10.6l4.2 4.2M33.2 33.2l4.2 4.2M10.6 37.4l4.2-4.2M33.2 14.8l4.2-4.2"/></svg></div>
+          <h3>Vitamine A &amp; E</h3>
+          <p>Ongeraffineerd, dus alle antioxidanten blijven behouden en beschermen je huid.</p>
+        </article>
+        <article class="benefit reveal" style="--d:.2s">
+          <div class="icon"><svg viewBox="0 0 48 48"><path d="M10 38C10 20 22 10 40 8c-2 18-12 30-30 30z"/><path d="M10 38l18-18"/></svg></div>
+          <h3>Mild &amp; puur</h3>
+          <p>Zonder parfum, conserveermiddelen of toevoegingen. Geschikt voor de gevoelige huid.</p>
+        </article>
+        <article class="benefit reveal" style="--d:.3s">
+          <div class="icon"><svg viewBox="0 0 48 48"><path d="M8 30c6-2 10 4 16 2s10-8 16-6"/><path d="M8 20c6-2 10 4 16 2s10-8 16-6"/></svg></div>
+          <h3>Huid, lippen &amp; haar</h3>
+          <p>Van droge ellebogen tot gesprongen lippen en droge haarpunten.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- HERKOMST -->
+    <section class="section origin" id="herkomst">
+      <div class="origin-visual reveal">
+        <img src="/img/sheaboter-textuur.svg" alt="Open pot met romige sheaboter" data-speed="-0.06" width="600" height="600">
+      </div>
+      <div class="origin-text">
+        <p class="eyebrow reveal">Herkomst</p>
+        <h2 class="reveal" style="--d:.05s">Met de hand gemaakt, <em>met respect</em> voor de bron</h2>
+        <p class="reveal" style="--d:.1s" data-description></p>
+        <p class="reveal" style="--d:.15s">Elke aankoop zorgt voor een eerlijk inkomen voor de vrouwen die de noten verzamelen, kraken, roosteren en tot boter kneden, een eeuwenoude traditie.</p>
+        <dl class="stats reveal" style="--d:.2s">
+          <div><dt><span data-count="100">0</span>%</dt><dd>natuurlijk</dd></div>
+          <div><dt><span data-count="1">0</span></dt><dd>ingrediënt</dd></div>
+          <div><dt><span data-count="0">0</span></dt><dd>toevoegingen</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- GEBRUIK -->
+    <section class="section" id="gebruik">
+      <div class="section-head reveal">
+        <p class="eyebrow">Gebruik</p>
+        <h2>Zo gebruik je <em>pure sheaboter</em></h2>
+      </div>
+      <ol class="steps">
+        <li class="reveal" style="--d:0s"><span class="num">01</span><h3>Neem een klein beetje</h3><p>Een erwtgrote hoeveelheid is genoeg. Schep het met een schone vinger uit de pot.</p></li>
+        <li class="reveal" style="--d:.1s"><span class="num">02</span><h3>Verwarm tussen je handen</h3><p>Wrijf even tot de boter smelt en zijdezacht wordt.</p></li>
+        <li class="reveal" style="--d:.2s"><span class="num">03</span><h3>Masseer in</h3><p>Breng aan op een licht vochtige huid, droge plekken of haarpunten.</p></li>
+      </ol>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta reveal">
+      <svg class="leaf-deco l4" data-speed="0.12" aria-hidden="true"><use href="#leaf"/></svg>
+      <h2>Gun je huid <em>iets puurs</em></h2>
+      <p>Bestel vandaag, binnen 2 werkdagen in huis.</p>
+      <form class="buy-form buy-form-center">
+        <div class="price-block"><span class="price" data-price>€ —</span><span class="size" data-size></span></div>
+        <input type="hidden" name="quantity" value="1">
+        <button class="btn btn-large btn-light" type="submit"><span>Koop nu</span></button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="logo-small">Natural Pure</p>
+    <p>Veilig betalen via Mollie · iDEAL · Creditcard · Bancontact</p>
+    <p class="muted">© <span id="year"></span> Natural Pure</p>
+  </footer>
+
+  <!-- Sticky koopbalk (mobiel) -->
+  <div class="sticky-buy" id="stickyBuy" aria-hidden="true">
+    <div><strong>Pure Sheaboter</strong><span data-price>€ —</span></div>
+    <form class="buy-form"><input type="hidden" name="quantity" value="1"><button class="btn" type="submit" tabindex="-1"><span>Koop nu</span></button></form>
+  </div>
+
+  <script src="/app.js"></script>
+  <script>initShop();</script>
+</body>
+</html>
