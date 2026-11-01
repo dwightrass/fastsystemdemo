@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Natural Pure – Natuurlijke producten</title>
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="/" class="logo"><img src="/favicon.svg" alt="" width="28" height="28"> Natural Pure</a>
+    <span class="tagline">Puur natuur, eerlijk geleverd</span>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Natuurlijke producten, zonder poespas</h1>
+      <p>Pure ingrediënten, met zorg geselecteerd. Kies je product en bestel direct.</p>
+    </section>
+    <section id="products" class="grid" aria-live="polite"></section>
+  </main>
+  <footer class="site-footer">
+    <p>© Natural Pure · Veilig betalen met iDEAL, creditcard en meer via Mollie</p>
+  </footer>
+  <script src="/app.js"></script>
+  <script>renderProductGrid(document.getElementById('products'));</script>
+</body>
+</html>
